@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
-import { Rating } from '../ratings/ratings.entity';
+import { Rating } from '../ratings/rating.entity';
 
 export enum UserRole {
   ADMIN = 'admin',
